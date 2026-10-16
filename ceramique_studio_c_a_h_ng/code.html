@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+
+<html lang="vi"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "surface-container-highest": "#f2e0c4", "surface-container-lowest": "#ffffff", "on-secondary": "#ffffff", "on-primary-fixed-variant": "#2a4b57", "inverse-surface": "#392f1c", "primary-fixed-dim": "#a9ccda", "surface-variant": "#f2e0c4", "secondary-container": "#feaa89", "on-secondary-fixed": "#370e00", "error": "#ba1a1a", "surface-dim": "#e9d8bc", "on-error-container": "#93000a", "outline-variant": "#c1c7cb", "surface-tint": "#42636f", "on-primary-fixed": "#001f28", "primary-container": "#183b46", "on-secondary-container": "#783c23", "inverse-primary": "#a9ccda", "primary-fixed": "#c5e8f6", "error-container": "#ffdad6", "on-background": "#231a09", "on-tertiary-fixed-variant": "#434935", "on-tertiary": "#ffffff", "surface": "#fff8f2", "on-secondary-fixed-variant": "#71361d", "on-tertiary-fixed": "#181d0d", "on-error": "#ffffff", "primary": "#00252f", "on-surface": "#231a09", "on-surface-variant": "#41484b", "inverse-on-surface": "#ffefd6", "secondary": "#8e4d32", "secondary-fixed": "#ffdbce", "tertiary-container": "#333926", "tertiary-fixed": "#e0e5ca", "background": "#fff8f2", "surface-container-high": "#f8e6ca", "surface-container-low": "#fff2e0", "on-primary-container": "#83a5b2", "surface-container": "#feeccf", "surface-bright": "#fff8f2", "on-tertiary-container": "#9da38a", "tertiary": "#1e2312", "tertiary-fixed-dim": "#c3c9af", "on-primary": "#ffffff", "outline": "#72787b", "secondary-fixed-dim": "#ffb599" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-sm": "0.5rem", "margin-lg": "4rem", "space-2xl": "4rem", "margin": "1.25rem", "space-xs": "0.25rem", "space-md": "1rem", "gutter-lg": "2.5rem", "space-xl": "2.5rem", "gutter": "1.5rem", "margin-md": "2.5rem", "space-lg": "1.5rem" }, "fontFamily": { "label-lg": ["Plus Jakarta Sans"], "title-md": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "display-md": ["Playfair Display"], "headline-sm": ["Playfair Display"], "display-md-mobile": ["Playfair Display"], "display-lg-mobile": ["Playfair Display"], "body-lg": ["Plus Jakarta Sans"], "headline-md": ["Playfair Display"], "headline-lg": ["Playfair Display"], "label-sm": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "display-lg": ["Playfair Display"] }, "fontSize": { "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.04em", "fontWeight": "600" }], "title-md": ["18px", { "lineHeight": "24px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "body-md": ["15px", { "lineHeight": "24px", "fontWeight": "400" }], "display-md": ["42px", { "lineHeight": "48px", "letterSpacing": "-0.015em", "fontWeight": "400" }], "headline-sm": ["22px", { "lineHeight": "30px", "fontWeight": "600" }], "display-md-mobile": ["30px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "400" }], "display-lg-mobile": ["38px", { "lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "400" }], "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }], "headline-md": ["26px", { "lineHeight": "34px", "fontWeight": "500" }], "headline-lg": ["32px", { "lineHeight": "40px", "fontWeight": "500" }], "label-sm": ["11px", { "lineHeight": "16px", "letterSpacing": "0.08em", "fontWeight": "600" }], "body-sm": ["13px", { "lineHeight": "20px", "fontWeight": "400" }], "display-lg": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "400" }] } } } };</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-[#F4EFE5]/95 backdrop-blur-md border-b border-[#D8C7AC]/40"><div class="h-20 max-w-[1440px] mx-auto px-margin md:px-margin-md lg:px-margin-lg flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><a class="flex items-center gap-space-sm" data-path="trang-chu" href="#"><img alt="CERAMIQUE STUDIO Brand Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XC3E9kW7PYRilr-Sg_nW974A2meURDzAtIdzm7gBC02yj14Ke4Hw_aGqwHA2xVQ4NyxT5RKFyYR4QbRwvGD4-Do8ofiJmREBVzH9NBhcd_Gg74TeMeuu62ags7xUtrs8VaevI1WUJV5ivAuXFnxc3MuTe7X9NP-KnB1AiKOyDlFqH4gjYOn5y7mrcVImswhELVG5tP1BKhnZ2k5BExcbqBT0OlvEsRxlA0wvMiR1ySWA1BPmFEyu7rr6c"/><span class="font-headline-sm text-headline-sm tracking-wide text-primary uppercase hidden sm:inline-block">Céramique Studio</span></a></div><nav class="hidden xl:flex items-center gap-space-lg" data-active-classes="text-secondary border-b-2 border-secondary font-medium pb-1"><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="trang-chu" href="#">Trang chủ</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="cua-hang" href="#">Cửa hàng</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="bo-suu-tap" href="#">Bộ sưu tập</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="cau-chuyen-thuong-hieu" href="#">Câu chuyện thương hiệu</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="nghe-thuat-lam-gom" href="#">Nghệ thuật làm gốm</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="lien-he" href="#">Liên hệ</a></nav><div class="flex items-center gap-space-sm md:gap-space-md"><div class="hidden md:flex items-center bg-surface-container-low px-space-sm py-1.5 rounded-lg border border-[#D8C7AC]/50"><span class="material-symbols-outlined text-outline text-[18px] mr-space-xs">search</span><input class="bg-transparent border-none outline-none font-body-sm text-body-sm text-on-surface placeholder-on-surface-variant/60 w-32 lg:w-44" placeholder="Tìm kiếm tác phẩm..." type="text"/></div><button aria-label="Tìm kiếm" class="flex md:hidden p-2 text-on-surface-variant hover:text-on-surface transition-colors"><span class="material-symbols-outlined">search</span></button><a aria-label="Giỏ hàng" class="relative p-2 text-on-surface-variant hover:text-on-surface transition-colors flex items-center justify-center" data-path="gio-hang" href="#"><span class="material-symbols-outlined">shopping_bag</span><span class="absolute top-1 right-1 flex items-center justify-center w-4 h-4 bg-secondary text-on-secondary font-label-sm text-[10px] rounded-full">3</span></a><div class="flex items-center pl-space-xs"><a aria-label="Tài khoản" class="flex items-center ring-1 ring-[#D8C7AC]/70 rounded-full" data-path="tai-khoan" href="#"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDE3GV2BxXmacAJijp2ew9UtqI1t9-JBEZ6DPw5WI00huPFHxV9ePCy_6k9STFiaNCWReKGPxqXzvmb3TcG6k9xtvaOiXHJcdGgHIeXRWhCEWZ_j9Q5xKSCkzVb_CPZPczgx4UvCw81SUswjkDenbA056DB0OHJew6KICZ5lZrZ17YXx3D_FYz1nCX-c8aiYTjxRGR9o1iTtngVaoUkTALhprnXYM6AgWzMeHcMvrcecbhIbRQ0_5uE"/></a></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full">
+<!-- Top Banner & Editorial Header Section -->
+<section class="relative w-full bg-surface-container-low overflow-hidden">
+<div class="absolute inset-0 bg-gradient-to-r from-surface-container-high/60 via-transparent to-surface-container-highest/40 pointer-events-none"></div>
+<div class="max-w-[1440px] mx-auto px-margin md:px-margin-md lg:px-margin-lg py-12 md:py-16 relative z-10">
+<!-- Breadcrumb -->
+<nav class="flex items-center gap-space-xs mb-6 text-on-surface-variant font-label-sm text-label-sm uppercase tracking-widest">
+<a class="hover:text-primary transition-colors" data-path="trang-chu" href="#">Trang chủ</a>
+<span class="text-outline">/</span>
+<span class="text-secondary font-semibold">Cửa hàng</span>
+</nav>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end">
+<div class="lg:col-span-8 flex flex-col gap-4">
+<div class="inline-flex items-center gap-2 self-start px-3 py-1 bg-surface-container-highest rounded-full text-secondary font-label-sm text-label-sm uppercase tracking-wider">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+            Kho tác phẩm chế tác thủ công
+          </div>
+<h1 class="font-display-lg text-display-md md:text-display-lg text-primary tracking-tight">
+            Cửa Hàng Gốm Thủ Công
+          </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
+            Tuyển tập những tác phẩm gốm mộc, bộ đồ ăn và vật dụng thưởng trà được tạo hình thủ công tỉ mỉ bằng đất sét tự nhiên và men khoáng. Từng hiện vật lưu giữ nhịp đập của đất mẹ và hơi ấm từ bàn xoay gốm.
+          </p>
+</div>
+<div class="lg:col-span-4 flex lg:justify-end">
+<div class="flex items-center gap-4 bg-surface px-5 py-4 rounded-xl shadow-sm border-0">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-2xl">verified</span>
+</div>
+<div>
+<p class="font-title-md text-title-md text-primary font-semibold">100% Chế Tác Mộc</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Lò nung củi &amp; nhiệt độ 1280°C</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Main Catalog Space (Filter Sidebar + Product Grid) -->
+<section class="max-w-[1440px] mx-auto px-margin md:px-margin-md lg:px-margin-lg py-10 md:py-16 w-full">
+<!-- Top Filter & Search Controls Bar -->
+<div class="flex flex-col md:flex-row items-stretch md:items-center justify-between gap-4 pb-6 mb-8 bg-surface-container-low p-4 rounded-xl">
+<div class="relative flex-1 max-w-md">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-[20px]">search</span>
+<input class="w-full bg-surface pl-10 pr-4 py-2.5 rounded-lg text-on-surface placeholder-on-surface-variant/60 font-body-sm text-body-sm outline-none focus:bg-surface-container-lowest transition-all" id="productSearchInput" placeholder="Tìm theo tên tác phẩm, màu men hoặc kiểu dáng..." type="text"/>
+</div>
+<div class="flex items-center gap-3 justify-between md:justify-end">
+<button class="lg:hidden flex items-center gap-2 px-4 py-2.5 bg-surface text-primary rounded-lg font-label-lg text-label-lg shadow-sm" id="toggleFilterMobile">
+<span class="material-symbols-outlined text-[18px]">tune</span>
+          Bộ lọc
+        </button>
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider hidden sm:inline">Sắp xếp:</span>
+<div class="relative">
+<select class="appearance-none bg-surface text-primary font-label-lg text-label-lg py-2.5 pl-3.5 pr-8 rounded-lg outline-none cursor-pointer shadow-sm" id="sortSelect">
+<option value="newest">Mới nhất</option>
+<option value="price-asc">Giá tăng dần</option>
+<option value="price-desc">Giá giảm dần</option>
+<option value="bestseller">Bán chạy nhất</option>
+</select>
+<span class="material-symbols-outlined pointer-events-none absolute right-2 top-1/2 -translate-y-1/2 text-outline text-[18px]">expand_more</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Active Tags Row -->
+<div class="flex flex-wrap items-center gap-2 mb-8" id="activeTagsContainer">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider mr-2">Đang lọc:</span>
+<span class="filter-pill inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-high text-on-surface font-body-sm text-body-sm">
+<span>Tất cả danh mục</span>
+<button class="hover:text-error transition-colors flex items-center" onclick="this.parentElement.remove()"><span class="material-symbols-outlined text-[14px]">close</span></button>
+</span>
+<span class="filter-pill inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-high text-on-surface font-body-sm text-body-sm">
+<span>Men tro tự nhiên</span>
+<button class="hover:text-error transition-colors flex items-center" onclick="this.parentElement.remove()"><span class="material-symbols-outlined text-[14px]">close</span></button>
+</span>
+<button class="font-label-sm text-label-sm text-secondary hover:underline ml-2" id="clearAllFiltersBtn">Xoá tất cả</button>
+</div>
+<!-- Catalog Layout (Sidebar + Grid) -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+<!-- Filter Sidebar -->
+<aside class="lg:col-span-3 flex flex-col gap-6 bg-surface-container-low p-6 rounded-2xl" id="filterSidebar">
+<div class="flex items-center justify-between pb-4">
+<h3 class="font-title-md text-title-md text-primary font-semibold flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px]">filter_list</span>
+            Bộ Lọc Tìm Kiếm
+          </h3>
+<button class="lg:hidden text-on-surface-variant hover:text-primary" id="closeFilterMobile">
+<span class="material-symbols-outlined">close</span>
+</button>
+</div>
+<!-- Filter Group: Categories -->
+<div class="flex flex-col gap-3">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant font-semibold">Danh mục tác phẩm</span>
+<div class="flex flex-col gap-2">
+<label class="flex items-center justify-between group cursor-pointer">
+<div class="flex items-center gap-2.5">
+<input checked="" class="accent-primary w-4 h-4 cursor-pointer" name="category" type="radio" value="all"/>
+<span class="font-body-md text-body-md text-primary font-medium group-hover:text-secondary transition-colors">Tất cả</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline">24</span>
+</label>
+<label class="flex items-center justify-between group cursor-pointer">
+<div class="flex items-center gap-2.5">
+<input class="accent-primary w-4 h-4 cursor-pointer" name="category" type="radio" value="kitchen"/>
+<span class="font-body-md text-body-md text-on-surface group-hover:text-secondary transition-colors">Bàn ăn &amp; Bếp</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline">12</span>
+</label>
+<label class="flex items-center justify-between group cursor-pointer">
+<div class="flex items-center gap-2.5">
+<input class="accent-primary w-4 h-4 cursor-pointer" name="category" type="radio" value="tea"/>
+<span class="font-body-md text-body-md text-on-surface group-hover:text-secondary transition-colors">Trà &amp; Cà phê</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline">8</span>
+</label>
+<label class="flex items-center justify-between group cursor-pointer">
+<div class="flex items-center gap-2.5">
+<input class="accent-primary w-4 h-4 cursor-pointer" name="category" type="radio" value="sculpture"/>
+<span class="font-body-md text-body-md text-on-surface group-hover:text-secondary transition-colors">Bình hoa &amp; Điêu khắc</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline">6</span>
+</label>
+<label class="flex items-center justify-between group cursor-pointer">
+<div class="flex items-center gap-2.5">
+<input class="accent-primary w-4 h-4 cursor-pointer" name="category" type="radio" value="gifts"/>
+<span class="font-body-md text-body-md text-on-surface group-hover:text-secondary transition-colors">Quà tặng &amp; Độc bản</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline">5</span>
+</label>
+<label class="flex items-center justify-between group cursor-pointer">
+<div class="flex items-center gap-2.5">
+<input class="accent-primary w-4 h-4 cursor-pointer" name="category" type="radio" value="family"/>
+<span class="font-body-md text-body-md text-on-surface group-hover:text-secondary transition-colors">Trẻ em &amp; Gia đình</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline">4</span>
+</label>
+</div>
+</div>
+<div class="h-px bg-surface-container-high"></div>
+<!-- Filter Group: Glaze Types -->
+<div class="flex flex-col gap-3">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant font-semibold">Dòng Men Tự Nhiên</span>
+<div class="flex flex-col gap-2">
+<label class="flex items-center gap-2.5 cursor-pointer group">
+<input checked="" class="accent-primary w-4 h-4 rounded cursor-pointer" type="checkbox"/>
+<span class="font-body-md text-body-md text-on-surface group-hover:text-secondary transition-colors">Men tro tự nhiên</span>
+</label>
+<label class="flex items-center gap-2.5 cursor-pointer group">
+<input class="accent-primary w-4 h-4 rounded cursor-pointer" type="checkbox"/>
+<span class="font-body-md text-body-md text-on-surface group-hover:text-secondary transition-colors">Men rạn cổ</span>
+</label>
+<label class="flex items-center gap-2.5 cursor-pointer group">
+<input class="accent-primary w-4 h-4 rounded cursor-pointer" type="checkbox"/>
+<span class="font-body-md text-body-md text-on-surface group-hover:text-secondary transition-colors">Men hỏa biến</span>
+</label>
+<label class="flex items-center gap-2.5 cursor-pointer group">
+<input class="accent-primary w-4 h-4 rounded cursor-pointer" type="checkbox"/>
+<span class="font-body-md text-body-md text-on-surface group-hover:text-secondary transition-colors">Men mờ Sand Beige</span>
+</label>
+<label class="flex items-center gap-2.5 cursor-pointer group">
+<input class="accent-primary w-4 h-4 rounded cursor-pointer" type="checkbox"/>
+<span class="font-body-md text-body-md text-on-surface group-hover:text-secondary transition-colors">Gốm đất mộc Terracotta</span>
+</label>
+</div>
+</div>
+<div class="h-px bg-surface-container-high"></div>
+<!-- Filter Group: Price Slider -->
+<div class="flex flex-col gap-3">
+<div class="flex justify-between items-center">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant font-semibold">Khoảng giá (VNĐ)</span>
+<span class="font-label-sm text-label-sm text-secondary font-bold" id="priceDisplay">150.000₫ - 3.000.000₫</span>
+</div>
+<input class="accent-secondary w-full h-1.5 bg-surface-container-highest rounded-lg cursor-pointer" id="priceRange" max="3000000" min="150000" step="50000" type="range" value="3000000"/>
+<div class="flex justify-between font-label-sm text-label-sm text-outline">
+<span>150.000₫</span>
+<span>3.000.000₫</span>
+</div>
+</div>
+<div class="pt-2">
+<button class="w-full bg-primary hover:bg-secondary text-on-primary py-3 rounded-lg font-label-lg text-label-lg transition-colors flex items-center justify-center gap-2" id="applyFiltersBtn">
+<span class="material-symbols-outlined text-[18px]">check_circle</span>
+            Áp dụng bộ lọc
+          </button>
+</div>
+</aside>
+<!-- Products Grid (8 Items) -->
+<div class="lg:col-span-9 flex flex-col gap-8">
+<div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
+<!-- Product Card 1 -->
+<article class="group flex flex-col bg-surface-container-low rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+<div class="relative w-full aspect-square bg-[#EBE4D5] overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Sculptural ceramic vase Khuc Xa with raw natural wood ash glaze, earthy sandy texture, warm sunlight casting subtle shadows in a high-end pottery studio, muted warm palette" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCLHRZ-xcgo4uLyXHnvsrZHaahmYN98t4FnK4dI67MFhk-aQnnfnQ9ZE6HdbcZaCBeYC9CXC4NP6myn5A854L8HbiLhYeztT0eFXrowLxW8Ca9maljRzARr7TDjixUpO5lqYo1aLe3V-dwPRUhLAGTmLZyWJzvAR6kfhUDNDf-JNmBJN4y4R-sHiZJZY0I6gboRtrLasfwbl1_s0yWVyICPUYYP9TwNf_UrV6zstK-JK_q5rpYsXIu-"/>
+<span class="absolute top-3 left-3 bg-tertiary-container/85 text-surface text-[11px] font-label-sm uppercase px-2.5 py-1 rounded-md tracking-wider backdrop-blur-sm">Làm thủ công</span>
+<button class="absolute bottom-3 right-3 bg-surface/90 hover:bg-surface text-primary p-2 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 shadow-sm flex items-center justify-center" data-quick-view="1" title="Xem nhanh tác phẩm">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+</button>
+</div>
+<div class="p-5 flex flex-col flex-1 justify-between gap-4">
+<div>
+<p class="font-label-sm text-label-sm text-secondary uppercase tracking-wider mb-1">Bình hoa &amp; Điêu khắc</p>
+<h3 class="font-title-md text-title-md text-primary font-semibold line-clamp-1 group-hover:text-secondary transition-colors">Bình Gốm Điêu Khắc "Khúc Xạ"</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Cao 28cm • Men tro củi nguyên bản</p>
+</div>
+<div class="flex items-center justify-between pt-2">
+<span class="font-title-md text-title-md text-primary font-bold">920.000₫</span>
+<button class="bg-primary hover:bg-secondary text-on-primary px-3.5 py-2 rounded-lg font-label-lg text-label-lg flex items-center gap-1.5 transition-colors" data-add-cart="Bình Gốm Điêu Khắc Khúc Xạ">
+<span class="material-symbols-outlined text-[18px]">keyboard_double_arrow_left</span>
+<span>Mua</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Product Card 2 -->
+<article class="group flex flex-col bg-surface-container-low rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+<div class="relative w-full aspect-square bg-[#EBE4D5] overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Handcrafted ceramic dinnerware set Tram Tich four beige round plates with subtle organic earthy rims stacked neatly on unbleached natural linen cloth background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDJ_29dZBuZrhcTlzYlFgnjHj27Dg4GWOTDXyG_rkR3Mn9PgsV3N7H5xhZkao-LDnLURzhzCxecorpZq5H4HLb82UmsEGlVG5rmP00mbTGb0sjSjQDHk2kGcx-SUcZwwUIGgouIKlyBS9YRM8jPXNA8bsXNft4mgGslYXzR2vk0aa8KGSdoVSV24Y6BGSuq9mCU0woABhaMYKL99Jfy5wHumAyIaq5lz58h1yVdk5W6Kd-wvav5GqAi"/>
+<span class="absolute top-3 left-3 bg-secondary/90 text-on-secondary text-[11px] font-label-sm uppercase px-2.5 py-1 rounded-md tracking-wider backdrop-blur-sm">Còn hàng</span>
+<button class="absolute bottom-3 right-3 bg-surface/90 hover:bg-surface text-primary p-2 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 shadow-sm flex items-center justify-center" data-quick-view="2" title="Xem nhanh tác phẩm">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+</button>
+</div>
+<div class="p-5 flex flex-col flex-1 justify-between gap-4">
+<div>
+<p class="font-label-sm text-label-sm text-secondary uppercase tracking-wider mb-1">Bàn ăn &amp; Bếp</p>
+<h3 class="font-title-md text-title-md text-primary font-semibold line-clamp-1 group-hover:text-secondary transition-colors">Bộ Đĩa Ăn Gia Đình "Trầm Tích"</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Set 4 đĩa viền be • Chống xước cao cấp</p>
+</div>
+<div class="flex items-center justify-between pt-2">
+<span class="font-title-md text-title-md text-primary font-bold">860.000₫</span>
+<button class="bg-primary hover:bg-secondary text-on-primary px-3.5 py-2 rounded-lg font-label-lg text-label-lg flex items-center gap-1.5 transition-colors" data-add-cart="Bộ Đĩa Ăn Gia Đình Trầm Tích">
+<span class="material-symbols-outlined text-[18px]">keyboard_double_arrow_left</span>
+<span>Mua</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Product Card 3 -->
+<article class="group flex flex-col bg-surface-container-low rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+<div class="relative w-full aspect-square bg-[#EBE4D5] overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Handmade purple clay sandstone teapot Zisha with unglazed grainy porous texture, minimalist Asian design on dark wooden tea tray, soft steam in background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA5a2H0ofqGxUTiFvH1OA9UFUB8IHGhJ2ouQBO79-nkcPu0lW273_ANO91X4GE9hETPK5rq1kSRG5bUY5QC8MgEqKPEjL_8oMSZzBApJYYVvYmN2APVZhzF54WjGRRD05OHMXq_0Vo0-UJBIZQWjjBHi1ISoXD4MX-i96uNVxDcZFUEoKlGjM7v8GBwMesSGjxGO5-rjAB-DP9UhC97AdY06iwpX0gmqrMB3U2QEO6VB_kmfmBgWny-"/>
+<span class="absolute top-3 left-3 bg-tertiary-container/85 text-surface text-[11px] font-label-sm uppercase px-2.5 py-1 rounded-md tracking-wider backdrop-blur-sm">Làm thủ công</span>
+<button class="absolute bottom-3 right-3 bg-surface/90 hover:bg-surface text-primary p-2 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 shadow-sm flex items-center justify-center" data-quick-view="3" title="Xem nhanh tác phẩm">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+</button>
+</div>
+<div class="p-5 flex flex-col flex-1 justify-between gap-4">
+<div>
+<p class="font-label-sm text-label-sm text-secondary uppercase tracking-wider mb-1">Trà &amp; Cà phê</p>
+<h3 class="font-title-md text-title-md text-primary font-semibold line-clamp-1 group-hover:text-secondary transition-colors">Ấm Trà Đất Tử Sa Sa Thạch</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Dung tích 220ml • Giữ nhiệt vượt trội</p>
+</div>
+<div class="flex items-center justify-between pt-2">
+<span class="font-title-md text-title-md text-primary font-bold">780.000₫</span>
+<button class="bg-primary hover:bg-secondary text-on-primary px-3.5 py-2 rounded-lg font-label-lg text-label-lg flex items-center gap-1.5 transition-colors" data-add-cart="Ấm Trà Đất Tử Sa Sa Thạch">
+<span class="material-symbols-outlined text-[18px]">keyboard_double_arrow_left</span>
+<span>Mua</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Product Card 4 -->
+<article class="group flex flex-col bg-surface-container-low rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+<div class="relative w-full aspect-square bg-[#EBE4D5] overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Minimalist ceramic mug with angular square handle, matte off-white sand beige glaze, elegant studio still life with soft shadows" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDYgqSEC-nXSvZ12974J7FUZyLqYHmx1S2OWSY3tWGouY4lE43erKqFPDUNxzp0qr2jAjio4qxOkOMpEcL7KZ_BlHhJsyvaTcn7WQv0FNMoWXoVcXdkWX1hFhKP6F1Ix0OCmQYm_PrvJLtU-L1YqdVkfMwQijaLk4i8MAL430cSfeybcUVH_khECtrrfSjs2KiihKreWiNq7F8u6IvHTayGQRwV3_0IUNFGoGR5Y3QoFaZVvF7B0hA8"/>
+<span class="absolute top-3 left-3 bg-secondary/90 text-on-secondary text-[11px] font-label-sm uppercase px-2.5 py-1 rounded-md tracking-wider backdrop-blur-sm">Còn hàng</span>
+<button class="absolute bottom-3 right-3 bg-surface/90 hover:bg-surface text-primary p-2 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 shadow-sm flex items-center justify-center" data-quick-view="4" title="Xem nhanh tác phẩm">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+</button>
+</div>
+<div class="p-5 flex flex-col flex-1 justify-between gap-4">
+<div>
+<p class="font-label-sm text-label-sm text-secondary uppercase tracking-wider mb-1">Trà &amp; Cà phê</p>
+<h3 class="font-title-md text-title-md text-primary font-semibold line-clamp-1 group-hover:text-secondary transition-colors">Cốc Nước Quai Vuông Minimalist</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Dung tích 320ml • Men Sand Beige</p>
+</div>
+<div class="flex items-center justify-between pt-2">
+<span class="font-title-md text-title-md text-primary font-bold">195.000₫</span>
+<button class="bg-primary hover:bg-secondary text-on-primary px-3.5 py-2 rounded-lg font-label-lg text-label-lg flex items-center gap-1.5 transition-colors" data-add-cart="Cốc Nước Quai Vuông Minimalist">
+<span class="material-symbols-outlined text-[18px]">keyboard_double_arrow_left</span>
+<span>Mua</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Product Card 5 -->
+<article class="group flex flex-col bg-surface-container-low rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+<div class="relative w-full aspect-square bg-[#EBE4D5] overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Artisanal Japanese style matcha ceramic chawan bowl with volcanic ash textured dark charcoal glaze and subtle green earthy spots, chasen whisk resting beside" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA3WSNUeldm807pjXoL9E-CmYR7LNXzNSJvpmFMZ_rAvqMXA4Mtq9dABLr11WM038yQ8xvTBkdhBp3-U0V3G79qHMJXUm_dsGzn5d2LjBXWnDY8WsLfsRU56bNByS-BtKW232B-E_gfvasw-Q-w9nIs1VjOrtaewDPNigvWY129pkFw13RUBfjqfyHUMM1MldT_WED3KDjhQ7wPoACAsEWZR9gaA-EnCS_Jg7ccuJ5rGxGXAzjfpRmT"/>
+<span class="absolute top-3 left-3 bg-tertiary-container/85 text-surface text-[11px] font-label-sm uppercase px-2.5 py-1 rounded-md tracking-wider backdrop-blur-sm">Làm thủ công</span>
+<button class="absolute bottom-3 right-3 bg-surface/90 hover:bg-surface text-primary p-2 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 shadow-sm flex items-center justify-center" data-quick-view="5" title="Xem nhanh tác phẩm">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+</button>
+</div>
+<div class="p-5 flex flex-col flex-1 justify-between gap-4">
+<div>
+<p class="font-label-sm text-label-sm text-secondary uppercase tracking-wider mb-1">Trà &amp; Cà phê</p>
+<h3 class="font-title-md text-title-md text-primary font-semibold line-clamp-1 group-hover:text-secondary transition-colors">Chén Gốm Matcha Men Tro Núi Lửa</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Đường kính 11.5cm • Chế tác giới hạn</p>
+</div>
+<div class="flex items-center justify-between pt-2">
+<span class="font-title-md text-title-md text-primary font-bold">360.000₫</span>
+<button class="bg-primary hover:bg-secondary text-on-primary px-3.5 py-2 rounded-lg font-label-lg text-label-lg flex items-center gap-1.5 transition-colors" data-add-cart="Chén Gốm Matcha Men Tro Núi Lửa">
+<span class="material-symbols-outlined text-[18px]">keyboard_double_arrow_left</span>
+<span>Mua</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Product Card 6 -->
+<article class="group flex flex-col bg-surface-container-low rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+<div class="relative w-full aspect-square bg-[#EBE4D5] overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Handcrafted oval ceramic serving platter with organic wavy rim, unglazed terracotta base underside, displayed with dried botanicals" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDQj3XDDJdHJXLAun6dj16P-DuOf8GN3nTcdO8bKUoaSGKl-mjdN9KHxV-ExvBKMArowKKZVvpFzq07-IPZ0KdL-_PL5QauFcr4VOCpNEADhzgqIjvDWDWl-YRpcT7wbuOKxH5S5R4RhkAwlu-7QJml68P7AyDOYXrkstFebnbSd22HyNPS7fvkkPELXy-XXVqfH3NMWc8LpMxL6usemFcYpCfNgOfyjp7OZgHR-QyupFOwzxTWA7c5"/>
+<span class="absolute top-3 left-3 bg-secondary/90 text-on-secondary text-[11px] font-label-sm uppercase px-2.5 py-1 rounded-md tracking-wider backdrop-blur-sm">Còn hàng</span>
+<button class="absolute bottom-3 right-3 bg-surface/90 hover:bg-surface text-primary p-2 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 shadow-sm flex items-center justify-center" data-quick-view="6" title="Xem nhanh tác phẩm">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+</button>
+</div>
+<div class="p-5 flex flex-col flex-1 justify-between gap-4">
+<div>
+<p class="font-label-sm text-label-sm text-secondary uppercase tracking-wider mb-1">Bàn ăn &amp; Bếp</p>
+<h3 class="font-title-md text-title-md text-primary font-semibold line-clamp-1 group-hover:text-secondary transition-colors">Khay Đựng Bánh Gốm Oval Thủ Công</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Dài 34cm • Men mờ chống bám dầu</p>
+</div>
+<div class="flex items-center justify-between pt-2">
+<span class="font-title-md text-title-md text-primary font-bold">420.000₫</span>
+<button class="bg-primary hover:bg-secondary text-on-primary px-3.5 py-2 rounded-lg font-label-lg text-label-lg flex items-center gap-1.5 transition-colors" data-add-cart="Khay Đựng Bánh Gốm Oval Thủ Công">
+<span class="material-symbols-outlined text-[18px]">keyboard_double_arrow_left</span>
+<span>Mua</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Product Card 7 -->
+<article class="group flex flex-col bg-surface-container-low rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+<div class="relative w-full aspect-square bg-[#EBE4D5] overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Elegant ceramic flower vase with fine crackle glaze celadon finish, delicate ancient crazing lines reflecting warm natural gallery light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDb39m9b_tik9OCgYjH9hdX9JiEj4PLz-mHpk0tnQAtoF7OW-aV4Uxtg9ben9DjNozkkw2JIjACmL2zL-hybz1Os9XSJhWKxSO4_un1zlQgrI7VJqV8YwcsB34RAzR0uwkn9zF7FYu4s9yhNda8pBx2yXdm4_uNd3RM5zyko0AZ411byXk3xoLPFoKB8zg9K6QN2SSMwHVwz0udZkr0RhC69ddbBA5WClJfLQ8yhTR5Y0sMWLgcBFLt"/>
+<span class="absolute top-3 left-3 bg-tertiary-container/85 text-surface text-[11px] font-label-sm uppercase px-2.5 py-1 rounded-md tracking-wider backdrop-blur-sm">Làm thủ công</span>
+<button class="absolute bottom-3 right-3 bg-surface/90 hover:bg-surface text-primary p-2 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 shadow-sm flex items-center justify-center" data-quick-view="7" title="Xem nhanh tác phẩm">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+</button>
+</div>
+<div class="p-5 flex flex-col flex-1 justify-between gap-4">
+<div>
+<p class="font-label-sm text-label-sm text-secondary uppercase tracking-wider mb-1">Quà tặng &amp; Độc bản</p>
+<h3 class="font-title-md text-title-md text-primary font-semibold line-clamp-1 group-hover:text-secondary transition-colors">Lọ Hoa Men Rạn Ngũ Sắc Nhạt</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Cao 22cm • Vân rạn tự nhiên cổ điển</p>
+</div>
+<div class="flex items-center justify-between pt-2">
+<span class="font-title-md text-title-md text-primary font-bold">540.000₫</span>
+<button class="bg-primary hover:bg-secondary text-on-primary px-3.5 py-2 rounded-lg font-label-lg text-label-lg flex items-center gap-1.5 transition-colors" data-add-cart="Lọ Hoa Men Rạn Ngũ Sắc Nhạt">
+<span class="material-symbols-outlined text-[18px]">keyboard_double_arrow_left</span>
+<span>Mua</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Product Card 8 -->
+<article class="group flex flex-col bg-surface-container-low rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+<div class="relative w-full aspect-square bg-[#EBE4D5] overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Handcrafted ceramic children feeding bowl set with cute embossed gentle animal motifs, soft rounded edges, non-toxic earthy natural glaze" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCPP4Q2Hj13IwpygywpHRHoCIZMJrjDtg1LTZ4sivjDQMSO5q3I55w8W2nRKPQ0JH0wwxmy7bZ1RuRo-cs4meHRJRScfQUGdpKiwD3ldkXg-QLjQ3ppefIZ7niUH7F17m0Dj2hRUty2nmXa5i3JAtb-gpOsPR4rv4kdIduCyeHlEjfuW0B0sTiNq2iu5HaRMVi4B2y39Amus1X3mHnHgQUq3F4-cnKqEXPnU1IMU-btWoHqB6zfwF7D"/>
+<span class="absolute top-3 left-3 bg-secondary/90 text-on-secondary text-[11px] font-label-sm uppercase px-2.5 py-1 rounded-md tracking-wider backdrop-blur-sm">Còn hàng</span>
+<button class="absolute bottom-3 right-3 bg-surface/90 hover:bg-surface text-primary p-2 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 shadow-sm flex items-center justify-center" data-quick-view="8" title="Xem nhanh tác phẩm">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+</button>
+</div>
+<div class="p-5 flex flex-col flex-1 justify-between gap-4">
+<div>
+<p class="font-label-sm text-label-sm text-secondary uppercase tracking-wider mb-1">Trẻ em &amp; Gia đình</p>
+<h3 class="font-title-md text-title-md text-primary font-semibold line-clamp-1 group-hover:text-secondary transition-colors">Bộ Bát Ăn Trẻ Em Hình Động Vật Mộc</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Set 2 món • Men thực phẩm hữu cơ an toàn</p>
+</div>
+<div class="flex items-center justify-between pt-2">
+<span class="font-title-md text-title-md text-primary font-bold">310.000₫</span>
+<button class="bg-primary hover:bg-secondary text-on-primary px-3.5 py-2 rounded-lg font-label-lg text-label-lg flex items-center gap-1.5 transition-colors" data-add-cart="Bộ Bát Ăn Trẻ Em Hình Động Vật Mộc">
+<span class="material-symbols-outlined text-[18px]">keyboard_double_arrow_left</span>
+<span>Mua</span>
+</button>
+</div>
+</div>
+</article>
+</div>
+<!-- Pagination Bar -->
+<div class="flex items-center justify-between pt-8 pb-4">
+<p class="font-body-sm text-body-sm text-on-surface-variant">Hiển thị <span class="font-semibold text-primary">8</span> trên tổng số <span class="font-semibold text-primary">24</span> tác phẩm</p>
+<div class="flex items-center gap-2">
+<button class="w-10 h-10 rounded-lg bg-surface text-outline hover:text-primary flex items-center justify-center shadow-sm disabled:opacity-40" disabled="">
+<span class="material-symbols-outlined text-[18px]">chevron_left</span>
+</button>
+<button class="w-10 h-10 rounded-lg bg-primary text-on-primary font-label-lg text-label-lg flex items-center justify-center">1</button>
+<button class="w-10 h-10 rounded-lg bg-surface hover:bg-surface-container-high text-primary font-label-lg text-label-lg flex items-center justify-center transition-colors">2</button>
+<button class="w-10 h-10 rounded-lg bg-surface hover:bg-surface-container-high text-primary font-label-lg text-label-lg flex items-center justify-center transition-colors">3</button>
+<button class="px-3.5 h-10 rounded-lg bg-surface hover:bg-surface-container-high text-primary font-label-lg text-label-lg flex items-center gap-1 transition-colors">
+<span>Tiếp</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Value Guarantees Section (4 Pillars) -->
+<section class="w-full bg-surface-container-low py-12 md:py-16">
+<div class="max-w-[1440px] mx-auto px-margin md:px-margin-md lg:px-margin-lg">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+<div class="flex items-start gap-4 p-5 rounded-2xl bg-surface shadow-sm">
+<div class="w-12 h-12 rounded-xl bg-surface-container-high flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-2xl">inventory_2</span>
+</div>
+<div>
+<h4 class="font-title-md text-title-md text-primary font-semibold mb-1">Đóng gói chống sốc</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Bao bì 3 lớp giấy tổ ong và xốp định hình chuyên dụng cho gốm sứ mỹ nghệ.</p>
+</div>
+</div>
+<div class="flex items-start gap-4 p-5 rounded-2xl bg-surface shadow-sm">
+<div class="w-12 h-12 rounded-xl bg-surface-container-high flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-2xl">format_image_left</span>
+</div>
+<div>
+<h4 class="font-title-md text-title-md text-primary font-semibold mb-1">Bảo hiểm vỡ hỏng 100%</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Đổi mới ngay lập tức hoặc hoàn tiền nếu tác phẩm gặp sự cố trong vận chuyển.</p>
+</div>
+</div>
+<div class="flex items-start gap-4 p-5 rounded-2xl bg-surface shadow-sm">
+<div class="w-12 h-12 rounded-xl bg-surface-container-high flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-2xl">cached</span>
+</div>
+<div>
+<h4 class="font-title-md text-title-md text-primary font-semibold mb-1">Đổi trả trong 7 ngày</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Trải nghiệm cảm giác cầm nắm thực tế, hỗ trợ đổi mẫu nếu chưa ưng ý.</p>
+</div>
+</div>
+<div class="flex items-start gap-4 p-5 rounded-2xl bg-surface shadow-sm">
+<div class="w-12 h-12 rounded-xl bg-surface-container-high flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-2xl">brush</span>
+</div>
+<div>
+<h4 class="font-title-md text-title-md text-primary font-semibold mb-1">Hỗ trợ tùy biến</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Nghệ nhân nhận khắc dấu riêng, phối màu men theo phong cách không gian bạn.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Quick View Modal (Hidden by default) -->
+<div class="fixed inset-0 z-50 flex items-center justify-center bg-primary/40 backdrop-blur-sm p-4 hidden" id="quickViewModal">
+<div class="bg-surface rounded-2xl max-w-3xl w-full p-6 md:p-8 shadow-2xl relative max-h-[90vh] overflow-y-auto">
+<button class="absolute top-4 right-4 text-outline hover:text-primary transition-colors p-2 rounded-full bg-surface-container-low" id="closeQuickViewBtn">
+<span class="material-symbols-outlined">close</span>
+</button>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+<div class="w-full aspect-square rounded-xl bg-[#EBE4D5] overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Quick view display of handmade ceramic art piece with natural tactile texture" id="modalImage" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDES9cTe9LZ7KcIDlmn-Xx4mKj6T5ziQpZ-LHg9ucwXXUfaJLnWrjM6HCxUI4QwX1QrXhmCaTAuGsS6bDQeSLc1xObijlNGsQRQrWIOMqep4l943v0kyFMnkbxqngcwoB9Za8X8HS-SO2Urutpai5OnlEkecKtIXjfxRqTmJvuN6RI8joz5S7euUCwmSKdYSlnWJBJ6WS6bZdiBOxzw5PIfxClSnBUeIO3KTZQuCaAO4KHG1FTVKHB7"/>
+</div>
+<div class="flex flex-col gap-4">
+<div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider" id="modalCategory">Danh mục</span>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold mt-1" id="modalTitle">Tên tác phẩm</h3>
+<p class="font-headline-md text-headline-md text-secondary font-semibold mt-2" id="modalPrice">000.000₫</p>
+</div>
+<div class="h-px bg-surface-container-high my-1"></div>
+<!-- Specs Table -->
+<div class="flex flex-col gap-2.5 font-body-sm text-body-sm">
+<div class="flex justify-between py-1 border-b border-surface-container-high">
+<span class="text-on-surface-variant">Chất liệu đất:</span>
+<span class="font-medium text-primary">Đất sét cao lanh &amp; sa thạch khoáng</span>
+</div>
+<div class="flex justify-between py-1 border-b border-surface-container-high">
+<span class="text-on-surface-variant">Dòng men:</span>
+<span class="font-medium text-primary" id="modalGlaze">Men khoáng nung 1280°C</span>
+</div>
+<div class="flex justify-between py-1 border-b border-surface-container-high">
+<span class="text-on-surface-variant">Kích thước:</span>
+<span class="font-medium text-primary" id="modalSize">Tiêu chuẩn Atelier</span>
+</div>
+<div class="flex justify-between py-1">
+<span class="text-on-surface-variant">An toàn thiết bị:</span>
+<span class="font-medium text-secondary">Lò vi sóng &amp; Máy rửa bát (Chế độ nhẹ)</span>
+</div>
+</div>
+<div class="bg-surface-container-low p-3.5 rounded-lg text-body-sm font-body-sm text-on-surface-variant">
+<strong class="text-primary block mb-0.5">Bảo quản tự nhiên:</strong>
+            Hạn chế ngâm trong nước trà đậm qua đêm, để khô ráo nơi thoáng gió sau khi vệ sinh bằng khăn mềm.
+          </div>
+<div class="pt-2 flex items-center gap-3">
+<button class="flex-1 bg-primary hover:bg-secondary text-on-primary py-3 rounded-lg font-label-lg text-label-lg transition-colors flex items-center justify-center gap-2" id="modalAddToCartBtn">
+<span class="material-symbols-outlined text-[18px]">shopping_bag</span>
+              Thêm vào giỏ hàng
+            </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Toast Notification (Added to cart feedback) -->
+<div class="fixed bottom-6 right-6 z-50 bg-primary text-on-primary px-5 py-3.5 rounded-xl shadow-xl flex items-center gap-3 translate-y-24 opacity-0 transition-all duration-300" id="cartToast">
+<span class="material-symbols-outlined text-secondary-fixed text-2xl">check_circle</span>
+<div>
+<p class="font-label-lg text-label-lg">Đã thêm vào giỏ hàng</p>
+<p class="font-body-sm text-body-sm text-on-primary-container truncate max-w-xs" id="toastProductName">Tác phẩm gốm</p>
+</div>
+</div>
+</div>
+<script>
+  // Quick View Modal Data Map
+  const quickViewData = {
+    '1': {
+      title: 'Bình Gốm Điêu Khắc "Khúc Xạ"',
+      category: 'Bình hoa & Điêu khắc',
+      price: '920.000₫',
+      size: 'Cao 28cm x Đường kính bụng 16cm',
+      glaze: 'Men tro củi tự nhiên nung lò củi',
+      imgAlt: 'Sculptural ceramic vase Khuc Xa with raw natural wood ash glaze, earthy sandy texture, warm sunlight casting subtle shadows in a high-end pottery studio, muted warm palette'
+    },
+    '2': {
+      title: 'Bộ Đĩa Ăn Gia Đình "Trầm Tích"',
+      category: 'Bàn ăn & Bếp',
+      price: '860.000₫',
+      size: 'Bộ 4 đĩa (2 đĩa 24cm, 2 đĩa 20cm)',
+      glaze: 'Men mờ viền be Sand Beige',
+      imgAlt: 'Handcrafted ceramic dinnerware set Tram Tich four beige round plates with subtle organic earthy rims stacked neatly on unbleached natural linen cloth background'
+    },
+    '3': {
+      title: 'Ấm Trà Đất Tử Sa Sa Thạch',
+      category: 'Trà & Cà phê',
+      price: '780.000₫',
+      size: 'Dung tích 220ml (Chuẩn độc ẩm - đối ẩm)',
+      glaze: 'Đất mộc không tráng men, giữ hương trà',
+      imgAlt: 'Handmade purple clay sandstone teapot Zisha with unglazed grainy porous texture, minimalist Asian design on dark wooden tea tray, soft steam in background'
+    },
+    '4': {
+      title: 'Cốc Nước Quai Vuông Minimalist',
+      category: 'Trà & Cà phê',
+      price: '195.000₫',
+      size: 'Dung tích 320ml (Cao 9cm, miệng 8cm)',
+      glaze: 'Men Sand Beige mờ mịn chống vân tay',
+      imgAlt: 'Minimalist ceramic mug with angular square handle, matte off-white sand beige glaze, elegant studio still life with soft shadows'
+    },
+    '5': {
+      title: 'Chén Gốm Matcha Men Tro Núi Lửa',
+      category: 'Trà & Cà phê',
+      price: '360.000₫',
+      size: 'Đường kính 11.5cm, Cao 7.5cm',
+      glaze: 'Men tro khoáng đen hỏa biến',
+      imgAlt: 'Artisanal Japanese style matcha ceramic chawan bowl with volcanic ash textured dark charcoal glaze and subtle green earthy spots, chasen whisk resting beside'
+    },
+    '6': {
+      title: 'Khay Đựng Bánh Gốm Oval Thủ Công',
+      category: 'Bàn ăn & Bếp',
+      price: '420.000₫',
+      size: 'Dài 34cm x Rộng 18cm',
+      glaze: 'Men mờ chống bám xước hữu cơ',
+      imgAlt: 'Handcrafted oval ceramic serving platter with organic wavy rim, unglazed terracotta base underside, displayed with dried botanicals'
+    },
+    '7': {
+      title: 'Lọ Hoa Men Rạn Ngũ Sắc Nhạt',
+      category: 'Quà tặng & Độc bản',
+      price: '540.000₫',
+      size: 'Cao 22cm, Miệng ôm dáng búp sen',
+      glaze: 'Men rạn truyền thống ngâm thảo mộc',
+      imgAlt: 'Elegant ceramic flower vase with fine crackle glaze celadon finish, delicate ancient crazing lines reflecting warm natural gallery light'
+    },
+    '8': {
+      title: 'Bộ Bát Ăn Trẻ Em Hình Động Vật Mộc',
+      category: 'Trẻ em & Gia đình',
+      price: '310.000₫',
+      size: '1 Bát ăn dặm 350ml + 1 Đĩa phụ 14cm',
+      glaze: 'Men tự nhiên an toàn tuyệt đối',
+      imgAlt: 'Handcrafted ceramic children feeding bowl set with cute embossed gentle animal motifs, soft rounded edges, non-toxic earthy natural glaze'
+    }
+  };
+
+  // Quick View Interactions
+  const modal = document.getElementById('quickViewModal');
+  const closeQuickViewBtn = document.getElementById('closeQuickViewBtn');
+  const modalTitle = document.getElementById('modalTitle');
+  const modalCategory = document.getElementById('modalCategory');
+  const modalPrice = document.getElementById('modalPrice');
+  const modalSize = document.getElementById('modalSize');
+  const modalGlaze = document.getElementById('modalGlaze');
+  const modalImage = document.getElementById('modalImage');
+  const modalAddToCartBtn = document.getElementById('modalAddToCartBtn');
+
+  let currentModalItem = '';
+
+  document.querySelectorAll('[data-quick-view]').forEach(button => {
+    button.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const id = button.getAttribute('data-quick-view');
+      const item = quickViewData[id];
+      if (item) {
+        modalTitle.textContent = item.title;
+        modalCategory.textContent = item.category;
+        modalPrice.textContent = item.price;
+        modalSize.textContent = item.size;
+        modalGlaze.textContent = item.glaze;
+        modalImage.setAttribute('data-alt', item.imgAlt);
+        currentModalItem = item.title;
+        modal.classList.remove('hidden');
+      }
+    });
+  });
+
+  if (closeQuickViewBtn) {
+    closeQuickViewBtn.addEventListener('click', () => {
+      modal.classList.add('hidden');
+    });
+  }
+
+  if (modal) {
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        modal.classList.add('hidden');
+      }
+    });
+  }
+
+  // Toast System for Add to Cart
+  const toast = document.getElementById('cartToast');
+  const toastProductName = document.getElementById('toastProductName');
+
+  function showToast(productName) {
+    if (!toast) return;
+    toastProductName.textContent = productName;
+    toast.classList.remove('translate-y-24', 'opacity-0');
+    toast.classList.add('translate-y-0', 'opacity-100');
+
+    // Update cart badge if present in header
+    const cartBadge = document.querySelector('header [data-path="gio-hang"] span.bg-secondary');
+    if (cartBadge) {
+      let count = parseInt(cartBadge.textContent) || 0;
+      cartBadge.textContent = count + 1;
+    }
+
+    setTimeout(() => {
+      toast.classList.remove('translate-y-0', 'opacity-100');
+      toast.classList.add('translate-y-24', 'opacity-0');
+    }, 2800);
+  }
+
+  document.querySelectorAll('[data-add-cart]').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const name = btn.getAttribute('data-add-cart');
+      showToast(name);
+    });
+  });
+
+  if (modalAddToCartBtn) {
+    modalAddToCartBtn.addEventListener('click', () => {
+      if (currentModalItem) {
+        showToast(currentModalItem);
+        modal.classList.add('hidden');
+      }
+    });
+  }
+
+  // Price Slider interactive feedback
+  const priceRange = document.getElementById('priceRange');
+  const priceDisplay = document.getElementById('priceDisplay');
+  if (priceRange && priceDisplay) {
+    priceRange.addEventListener('input', (e) => {
+      const val = parseInt(e.target.value);
+      const formatted = new Intl.NumberFormat('vi-VN').format(val);
+      priceDisplay.textContent = `150.000₫ - ${formatted}₫`;
+    });
+  }
+
+  // Mobile Filter Drawer Toggle
+  const toggleFilterMobile = document.getElementById('toggleFilterMobile');
+  const closeFilterMobile = document.getElementById('closeFilterMobile');
+  const filterSidebar = document.getElementById('filterSidebar');
+
+  if (toggleFilterMobile && filterSidebar) {
+    toggleFilterMobile.addEventListener('click', () => {
+      filterSidebar.classList.toggle('hidden');
+      filterSidebar.scrollIntoView({ behavior: 'smooth' });
+    });
+  }
+  if (closeFilterMobile && filterSidebar) {
+    closeFilterMobile.addEventListener('click', () => {
+      filterSidebar.classList.add('hidden');
+    });
+  }
+
+  // Clear filters
+  const clearBtn = document.getElementById('clearAllFiltersBtn');
+  if (clearBtn) {
+    clearBtn.addEventListener('click', () => {
+      document.querySelectorAll('.filter-pill').forEach(pill => pill.remove());
+    });
+  }
+</script></main><footer class="w-full bg-primary-container text-[#F4EFE5] pt-space-2xl pb-space-xl border-t border-primary"><div class="max-w-[1440px] mx-auto px-margin md:px-margin-md lg:px-margin-lg"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-gutter-lg pb-space-2xl border-b border-on-primary-container/20"><div class="lg:col-span-4 flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><span class="font-headline-md text-headline-md tracking-wider uppercase text-surface">Céramique Studio</span></div><p class="font-body-md text-body-md text-on-primary-container leading-relaxed max-w-sm">Không gian lưu giữ và kiến tạo nghệ thuật gốm đương đại. Từng sản phẩm là sự kết nối hài hòa giữa đất sét nguyên bản, men khoáng tự nhiên và bàn tay nghệ nhân.</p><div class="flex flex-col gap-space-xs pt-space-xs"><span class="font-label-sm text-label-sm uppercase tracking-widest text-on-primary-container">Giờ mở cửa xưởng</span><p class="font-body-sm text-body-sm text-surface">Thứ Ba - Chủ Nhật: 09:00 - 18:30<br/>Thứ Hai: Nghỉ nghiên cứu men gốm</p></div></div><div class="lg:col-span-2 flex flex-col gap-space-md"><h4 class="font-title-md text-title-md text-surface tracking-wide">Khám phá</h4><ul class="flex flex-col gap-space-sm font-body-md text-body-md text-on-primary-container"><li class="hover:text-surface transition-colors"><a data-path="cua-hang" href="#">Tác phẩm mới</a></li><li class="hover:text-surface transition-colors"><a data-path="bo-suu-tap" href="#">Bộ sưu tập Đất &amp; Men</a></li><li class="hover:text-surface transition-colors"><a data-path="nghe-thuat-lam-gom" href="#">Quy trình thủ công</a></li><li class="hover:text-surface transition-colors"><a data-path="cau-chuyen-thuong-hieu" href="#">Triết lý Atelier</a></li><li class="hover:text-surface transition-colors"><a data-path="workshop" href="#">Workshop trải nghiệm</a></li></ul></div><div class="lg:col-span-2 flex flex-col gap-space-md"><h4 class="font-title-md text-title-md text-surface tracking-wide">Liên hệ</h4><div class="flex flex-col gap-space-sm font-body-sm text-body-sm text-on-primary-container"><p><span class="block text-surface font-medium">Xưởng chính:</span>124 Phố Gốm Mộc, Phường An Khánh, TP. Thủ Đức, TP. Hồ Chí Minh</p><p><span class="block text-surface font-medium">Điện thoại:</span>+84 (0) 28 3822 9104</p><p><span class="block text-surface font-medium">Thư điện tử:</span>atelier@ceramiquestudio.vn</p></div></div><div class="lg:col-span-4 flex flex-col gap-space-md"><h4 class="font-title-md text-title-md text-surface tracking-wide">Đăng ký nhận bản tin</h4><p class="font-body-sm text-body-sm text-on-primary-container">Đón nhận câu chuyện từ lò nung, các buổi ra mắt mẻ gốm giới hạn và lời mời tham dự triển lãm thủ công định kỳ.</p><form class="flex flex-col sm:flex-row gap-space-xs pt-space-xs"><input class="flex-1 bg-primary px-space-md py-3 rounded-lg border border-on-primary-container/30 text-surface placeholder-on-primary-container/60 font-body-sm text-body-sm focus:outline-none focus:border-secondary transition-colors" placeholder="Địa chỉ email của bạn" type="email"/><button class="bg-secondary hover:bg-on-secondary-container text-on-secondary px-space-md py-3 rounded-lg font-label-lg text-label-lg transition-colors whitespace-nowrap" type="button">Đăng ký</button></form></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-sm font-body-sm text-body-sm text-on-primary-container/80"><p>© 2024 CERAMIQUE STUDIO. Tất cả quyền được bảo lưu.</p><div class="flex gap-space-lg font-label-sm text-label-sm"><a class="hover:text-surface transition-colors" data-path="chinh-sach-bao-mat" href="#">Chính sách bảo mật</a><a class="hover:text-surface transition-colors" data-path="dieu-khoan-dich-vu" href="#">Điều khoản dịch vụ</a><a class="hover:text-surface transition-colors" data-path="chinh-sach-van-chuyen" href="#">Bảo quản &amp; Vận chuyển</a></div></div></div></footer></body></html>
